@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+
+
+
+h1{
+    font-size: 40px;
+    color: white;
+    margin-left: 30px;
+    
+    font-family: monospace;
+   
+}
+
+span{
+    font-size: 15px;
+    color: white;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 28px;
+    color: white;
+    font-family: monospace;
+    font-weight: lighter;
+    
+}
+
+h3{
+    font-size: 60px;
+    color: white;
+    font-family: monospace;
+    font-weight: bolder;
+
+}
+.dropdown{
+    
+}
+
+.main-header{
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px, 20px;
+    
+}
+
+.main-header nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 660px;
+    
+}
+
+.main-content{
+    height: calc(100vh);
+    background-color: black;
+    position: relative;
+    background-image: url(https://blogs.nasa.gov/spacex/wp-content/uploads/sites/227/2020/03/SpaceX-CRS-20-Launch-Horizontal.jpg);
+}
+
+.main-content h2{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align:left; 
+    margin-left: 30px;  
+}
+
+.main-content h3{
+    width: 100%;
+    position: absolute;
+    top: 56%;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+
+button{
+    
+    position: absolute;
+    top: 75%;
+    text-align: left;
+    margin-left: 30px;
+}
